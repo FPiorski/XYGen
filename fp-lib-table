@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PinHeaders)(type KiCad)(uri ${KIPRJMOD}/PinHeaders.pretty)(options "")(descr ""))
+  (lib (name PinSocket)(type KiCad)(uri ${KIPRJMOD}/PinSocket.pretty)(options "")(descr ""))
+)
