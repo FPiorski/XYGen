@@ -6,10 +6,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 13
 Title "µC-less XY character generator"
-Date "2021-01-18"
-Rev "0.2"
-Comp "Warsaw University of Technology"
-Comment1 "Filip Piórski"
+Date "2021-04-20"
+Rev "2.0"
+Comp "Filip Piórski"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1197,92 +1197,280 @@ F 3 "~" H 2200 2000 50  0001 C CNN
 	1    2200 2000
 	1    0    0    -1  
 $EndComp
+Wire Notes Line width 10 style solid
+	8600 4400 8600 4700
+Wire Notes Line width 10 style solid
+	8600 4700 8800 4700
+Wire Notes Line width 10 style solid
+	8800 4700 8800 4400
+Wire Notes Line width 10 style solid
+	8800 4400 8600 4400
+Wire Notes Line width 10 style solid
+	8550 4700 8850 4400
+Text Notes 8450 4100 0    79   ~ 0
+Zeroing
+Wire Notes Line width 10 style solid
+	3900 7050 3500 7050
+Wire Notes Line width 10 style solid
+	3500 7050 3500 7750
+Wire Notes Line width 10 style solid
+	3500 7750 3900 7750
+Wire Notes Line width 10 style solid
+	3900 7750 3900 7050
+Wire Notes Line width 10 style solid
+	3900 7400 3500 7050
+Wire Notes Line width 10 style solid
+	3500 7750 3900 7400
+Text Notes 3400 6700 0    79   ~ 0
+Input Mux
+Wire Notes Line width 10 style solid
+	3500 7700 3400 7700
+Wire Notes Line width 10 style solid
+	3500 7500 3400 7500
+Wire Notes Line width 10 style solid
+	3500 7300 3400 7300
+Wire Notes Line width 10 style solid
+	3400 7100 3500 7100
+Wire Notes Line width 10 style solid
+	3900 7400 4000 7400
+Text Notes 5150 7050 0    79   ~ 0
+Blanking
+Wire Notes Line width 10 style solid
+	10950 4550 11350 4550
+Wire Notes Line width 10 style solid
+	11350 4550 11250 4450
+Wire Notes Line width 10 style solid
+	11250 4650 11350 4550
+Text Notes 10900 4100 0    79   ~ 0
+X Shift
+Text Notes 8400 6850 0    79   ~ 0
+Glue Logic
+Wire Notes Line width 10 style solid
+	8500 7400 8500 7700
+Wire Notes Line width 10 style solid
+	8500 7700 8750 7700
+Wire Notes Line width 10 style solid
+	8750 7700 8850 7650
+Wire Notes Line width 10 style solid
+	8850 7650 8900 7600
+Wire Notes Line width 10 style solid
+	8900 7600 8900 7500
+Wire Notes Line width 10 style solid
+	8900 7500 8850 7450
+Wire Notes Line width 10 style solid
+	8850 7450 8750 7400
+Wire Notes Line width 10 style solid
+	8750 7400 8500 7400
+Wire Notes Line width 10 style solid
+	8500 7450 8400 7450
+Wire Notes Line width 10 style solid
+	8400 7650 8500 7650
+Wire Notes Line width 10 style solid
+	8900 7550 9000 7550
+Text Notes 8200 8750 0    79   ~ 0
+Size Adjustment
+Wire Notes Line width 10 style solid
+	8250 9100 8350 9100
+Wire Notes Line width 10 style solid
+	8350 9200 8250 9200
+Wire Notes Line width 10 style solid
+	8250 9300 8350 9300
+Wire Notes Line width 10 style solid
+	8250 9100 8250 9300
+Wire Notes Line width 10 style solid
+	8350 9100 8350 9300
+Wire Notes Line width 10 style solid
+	8950 8900 8650 8900
+Wire Notes Line width 10 style solid
+	8650 9200 8950 9200
+Wire Notes Line width 10 style solid
+	8950 9500 8650 9500
+Wire Notes Line width 10 style solid
+	8950 8900 8950 9500
+Wire Notes Line width 10 style solid
+	8650 8900 8650 9500
+Wire Notes Line width 10 style solid
+	8350 9300 8950 9500
+Wire Notes Line width 10 style solid
+	8650 9500 8250 9300
+Wire Notes Line width 10 style solid
+	11200 6150 11300 6200
+Wire Notes Line width 10 style solid
+	11300 6200 11350 6250
+Wire Notes Line width 10 style solid
+	11350 6250 11400 6350
+Wire Notes Line width 10 style solid
+	11100 6150 11000 6200
+Wire Notes Line width 10 style solid
+	11000 6200 10950 6250
+Wire Notes Line width 10 style solid
+	10950 6250 10900 6350
+Wire Notes Line width 10 style solid
+	10900 6450 10950 6550
+Wire Notes Line width 10 style solid
+	10950 6550 11000 6600
+Wire Notes Line width 10 style solid
+	11000 6600 11100 6650
+Wire Notes Line width 10 style solid
+	11200 6650 11300 6600
+Wire Notes Line width 10 style solid
+	11300 6600 11350 6550
+Wire Notes Line width 10 style solid
+	11350 6550 11400 6450
+Wire Notes Line width 10 style solid
+	11100 6150 11200 6150
+Wire Notes Line width 10 style solid
+	11400 6350 11400 6450
+Wire Notes Line width 10 style solid
+	10900 6350 10900 6450
+Wire Notes Line width 10 style solid
+	11100 6650 11200 6650
+Wire Notes Line width 10 style solid
+	11100 6300 11150 6250
+Wire Notes Line width 10 style solid
+	11150 6250 11200 6300
+Wire Notes Line width 10 style solid
+	11150 6250 11150 6550
+Wire Notes Line width 10 style solid
+	11150 6150 11150 6050
+Wire Notes Line width 10 style solid
+	11150 6650 11150 6750
+Text Notes 10650 5950 0    79   ~ 0
+X Current Source
+Wire Notes Line width 10 style solid
+	11200 7950 11300 8000
+Wire Notes Line width 10 style solid
+	11300 8000 11350 8050
+Wire Notes Line width 10 style solid
+	11350 8050 11400 8150
+Wire Notes Line width 10 style solid
+	11100 7950 11000 8000
+Wire Notes Line width 10 style solid
+	11000 8000 10950 8050
+Wire Notes Line width 10 style solid
+	10950 8050 10900 8150
+Wire Notes Line width 10 style solid
+	10900 8250 10950 8350
+Wire Notes Line width 10 style solid
+	10950 8350 11000 8400
+Wire Notes Line width 10 style solid
+	11000 8400 11100 8450
+Wire Notes Line width 10 style solid
+	11200 8450 11300 8400
+Wire Notes Line width 10 style solid
+	11300 8400 11350 8350
+Wire Notes Line width 10 style solid
+	11350 8350 11400 8250
+Wire Notes Line width 10 style solid
+	11100 7950 11200 7950
+Wire Notes Line width 10 style solid
+	11400 8150 11400 8250
+Wire Notes Line width 10 style solid
+	10900 8150 10900 8250
+Wire Notes Line width 10 style solid
+	11100 8450 11200 8450
+Wire Notes Line width 10 style solid
+	11100 8100 11150 8050
+Wire Notes Line width 10 style solid
+	11150 8050 11200 8100
+Wire Notes Line width 10 style solid
+	11150 8050 11150 8350
+Wire Notes Line width 10 style solid
+	11150 7950 11150 7850
+Wire Notes Line width 10 style solid
+	11150 8450 11150 8550
+Text Notes 10650 7750 0    79   ~ 0
+Y Current Source
+Wire Notes Line width 10 style solid
+	13100 6350 13050 6300
+Wire Notes Line width 10 style solid
+	12950 6300 12900 6350
+Wire Notes Line width 10 style solid
+	12900 6450 12950 6500
+Wire Notes Line width 10 style solid
+	13050 6500 13100 6450
+Wire Notes Line width 10 style solid
+	13100 6350 13100 6450
+Wire Notes Line width 10 style solid
+	12950 6300 13050 6300
+Wire Notes Line width 10 style solid
+	12900 6350 12900 6450
+Wire Notes Line width 10 style solid
+	12950 6500 13050 6500
+Wire Notes Line width 10 style solid
+	13250 6300 13400 6400
+Wire Notes Line width 10 style solid
+	13400 6400 13250 6500
+Wire Notes Line width 10 style solid
+	13250 6300 13250 6500
+Wire Notes Line width 10 style solid
+	13450 6400 13400 6400
+Wire Notes Line width 10 style solid
+	13250 6400 13100 6400
+Wire Notes Line width 10 style solid
+	13000 6300 13000 6200
+Wire Notes Line width 10 style solid
+	12900 6400 12800 6400
+Wire Notes Line width 10 style solid
+	12950 6400 13050 6400
+Wire Notes Line width 10 style solid
+	13000 6350 13000 6450
+Wire Notes Line width 10 style solid
+	12900 8000 12900 8400
+Wire Notes Line width 10 style solid
+	12900 8400 13300 8200
+Wire Notes Line width 10 style solid
+	13300 8200 12900 8000
+Wire Notes Line width 10 style solid
+	12900 8200 12800 8200
+Wire Notes Line width 10 style solid
+	13300 8200 13400 8200
+Text Notes 12650 5950 0    79   ~ 0
+X Buffer/Adder
+Text Notes 12850 7750 0    79   ~ 0
+Y Buffer
 $Comp
-L Connector:Conn_01x01_Female J10
-U 1 1 604007AA
-P 14000 3300
-F 0 "J10" H 14027 3326 50  0000 L CNN
-F 1 "Mounting Hole" H 14027 3235 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14000 3300 50  0001 C CNN
-F 3 "~" H 14000 3300 50  0001 C CNN
-	1    14000 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J11
-U 1 1 6040652B
-P 14000 3600
-F 0 "J11" H 14027 3626 50  0000 L CNN
-F 1 "Mounting Hole" H 14027 3535 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14000 3600 50  0001 C CNN
-F 3 "~" H 14000 3600 50  0001 C CNN
-	1    14000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J12
-U 1 1 6040C11F
-P 14000 3900
-F 0 "J12" H 14027 3926 50  0000 L CNN
-F 1 "Mounting Hole" H 14027 3835 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14000 3900 50  0001 C CNN
-F 3 "~" H 14000 3900 50  0001 C CNN
-	1    14000 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J13
-U 1 1 6040C126
-P 14000 4200
-F 0 "J13" H 14027 4226 50  0000 L CNN
-F 1 "Mounting Hole" H 14027 4135 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14000 4200 50  0001 C CNN
-F 3 "~" H 14000 4200 50  0001 C CNN
-	1    14000 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 60412C47
+L Mechanical:MountingHole H1
+U 1 1 60A5B990
 P 13800 3300
-F 0 "#PWR0115" H 13800 3050 50  0001 C CNN
-F 1 "GND" V 13805 3172 50  0000 R CNN
-F 2 "" H 13800 3300 50  0001 C CNN
-F 3 "" H 13800 3300 50  0001 C CNN
+F 0 "H1" H 13900 3346 50  0000 L CNN
+F 1 "MountingHole" H 13900 3255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 13800 3300 50  0001 C CNN
+F 3 "~" H 13800 3300 50  0001 C CNN
 	1    13800 3300
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0116
-U 1 1 60412CFB
+L Mechanical:MountingHole H2
+U 1 1 60A5BBA0
 P 13800 3600
-F 0 "#PWR0116" H 13800 3350 50  0001 C CNN
-F 1 "GND" V 13805 3472 50  0000 R CNN
-F 2 "" H 13800 3600 50  0001 C CNN
-F 3 "" H 13800 3600 50  0001 C CNN
+F 0 "H2" H 13900 3646 50  0000 L CNN
+F 1 "MountingHole" H 13900 3555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 13800 3600 50  0001 C CNN
+F 3 "~" H 13800 3600 50  0001 C CNN
 	1    13800 3600
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
-U 1 1 60418895
+L Mechanical:MountingHole H3
+U 1 1 60A5BC12
 P 13800 3900
-F 0 "#PWR0117" H 13800 3650 50  0001 C CNN
-F 1 "GND" V 13805 3772 50  0000 R CNN
-F 2 "" H 13800 3900 50  0001 C CNN
-F 3 "" H 13800 3900 50  0001 C CNN
+F 0 "H3" H 13900 3946 50  0000 L CNN
+F 1 "MountingHole" H 13900 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 13800 3900 50  0001 C CNN
+F 3 "~" H 13800 3900 50  0001 C CNN
 	1    13800 3900
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
-U 1 1 6041E42F
+L Mechanical:MountingHole H4
+U 1 1 60A5BC88
 P 13800 4200
-F 0 "#PWR0118" H 13800 3950 50  0001 C CNN
-F 1 "GND" V 13805 4072 50  0000 R CNN
-F 2 "" H 13800 4200 50  0001 C CNN
-F 3 "" H 13800 4200 50  0001 C CNN
+F 0 "H4" H 13900 4246 50  0000 L CNN
+F 1 "MountingHole" H 13900 4155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 13800 4200 50  0001 C CNN
+F 3 "~" H 13800 4200 50  0001 C CNN
 	1    13800 4200
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

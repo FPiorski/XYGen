@@ -1,6 +1,6 @@
-update=Tue 19 Jan 2021 09:58:44 PM CET
+update=Tue 20 Apr 2021 07:30:17 PM CEST
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/home/turbo/XY/
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

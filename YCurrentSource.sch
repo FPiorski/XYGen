@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 13
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Y Current Source"
+Date "2021-04-20"
+Rev "2.0"
+Comp "Filip Piórski"
+Comment1 "Charges/discharges/leaves the signal cap alone"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -23,12 +23,12 @@ AR Path="/60394AE9/6062A92D" Ref="U?"  Part="1"
 AR Path="/60394DA6/6062A92D" Ref="U?"  Part="1" 
 AR Path="/601DE80D/60394DA6/6062A92D" Ref="U?"  Part="1" 
 AR Path="/601E8CD6/6062A92D" Ref="U9"  Part="1" 
-F 0 "U9" H 3650 2050 50  0000 C CNN
-F 1 "LM358" H 3650 2300 50  0000 C CNN
+F 0 "U9" H 3700 2250 50  0000 C CNN
+F 1 "LM358" H 3650 2000 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3500 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3500 2150 50  0001 C CNN
 	1    3500 2150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:LM358 U?
@@ -1098,11 +1098,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 3900 4250 4150
 Wire Wire Line
-	6900 5250 6900 5050
+	6900 5350 6900 5050
 $Comp
 L power:GND #PWR?
 U 1 1 6025F41B
-P 6900 5250
+P 6900 5350
 AR Path="/5FA4B51C/6025F41B" Ref="#PWR?"  Part="1" 
 AR Path="/601DE80D/6025F41B" Ref="#PWR?"  Part="1" 
 AR Path="/6025F41B" Ref="#PWR?"  Part="1" 
@@ -1110,11 +1110,11 @@ AR Path="/60394AE9/6025F41B" Ref="#PWR?"  Part="1"
 AR Path="/60394DA6/6025F41B" Ref="#PWR?"  Part="1" 
 AR Path="/601DE80D/60394DA6/6025F41B" Ref="#PWR?"  Part="1" 
 AR Path="/601E8CD6/6025F41B" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 6900 5000 50  0001 C CNN
-F 1 "GND" H 6900 5100 50  0000 C CNN
-F 2 "" H 6900 5250 50  0001 C CNN
-F 3 "" H 6900 5250 50  0001 C CNN
-	1    6900 5250
+F 0 "#PWR0114" H 6900 5100 50  0001 C CNN
+F 1 "GND" H 6900 5200 50  0000 C CNN
+F 2 "" H 6900 5350 50  0001 C CNN
+F 3 "" H 6900 5350 50  0001 C CNN
+	1    6900 5350
 	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

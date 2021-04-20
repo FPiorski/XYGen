@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 13
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "X Buffer/Adder"
+Date "2021-04-20"
+Rev "2.0"
+Comp "Filip Piórski"
+Comment1 "Buffers the X signal and adds an offset (shift)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -343,8 +343,6 @@ $EndComp
 Wire Wire Line
 	7000 4150 7200 4150
 Connection ~ 7000 4150
-Text Notes 5850 3300 0    100  ~ 0
-X buffer + shift
 Wire Wire Line
 	5350 4150 5350 4750
 Wire Wire Line

@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Zero Signal Generator"
+Date "2021-04-20"
+Rev "2.0"
+Comp "Filip Piórski"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -115,7 +115,7 @@ AR Path="/601DE80D/6031F646/6038D63D" Ref="RV?"  Part="1"
 AR Path="/601E8CC4/6038D63D" Ref="RV1"  Part="1" 
 F 0 "RV1" H 4400 3050 50  0000 R CNN
 F 1 "10k" H 4400 2950 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical" H 4500 3000 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 4500 3000 50  0001 C CNN
 F 3 "~" H 4500 3000 50  0001 C CNN
 	1    4500 3000
 	-1   0    0    -1  
@@ -257,7 +257,7 @@ AR Path="/601DE80D/6031F646/6038D682" Ref="RV?"  Part="1"
 AR Path="/601E8CC4/6038D682" Ref="RV2"  Part="1" 
 F 0 "RV2" H 6400 3050 50  0000 R CNN
 F 1 "10k" H 6400 2950 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical" H 6500 3000 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 6500 3000 50  0001 C CNN
 F 3 "~" H 6500 3000 50  0001 C CNN
 	1    6500 3000
 	-1   0    0    -1  
@@ -309,29 +309,14 @@ Wire Wire Line
 	6500 3550 6500 3500
 Wire Wire Line
 	6500 3750 6500 3800
-Wire Wire Line
-	6500 3800 6950 3800
-Wire Wire Line
-	6950 3800 6950 3700
-Wire Wire Line
-	6950 3700 7050 3700
 Connection ~ 6500 3800
 Wire Wire Line
 	6500 3800 6500 3850
-Wire Wire Line
-	7050 3600 6950 3600
-Wire Wire Line
-	6950 3600 6950 3500
-Wire Wire Line
-	6950 3500 6500 3500
 Connection ~ 6500 3500
 Wire Wire Line
 	6500 3500 6500 3450
 Wire Wire Line
 	6950 3800 6950 3900
-Wire Wire Line
-	6950 3900 7050 3900
-Connection ~ 6950 3800
 Wire Wire Line
 	7050 4000 6950 4000
 Wire Wire Line
@@ -390,4 +375,21 @@ SegmentD2
 Text HLabel 8250 3600 2    50   Output ~ 0
 ZERO
 NoConn ~ 8050 4000
+Wire Wire Line
+	6500 3800 6950 3800
+Wire Wire Line
+	6950 3900 7050 3900
+Wire Wire Line
+	6950 3800 6950 3700
+Wire Wire Line
+	6950 3700 7050 3600
+Connection ~ 6950 3800
+Wire Wire Line
+	6950 3600 6950 3500
+Wire Wire Line
+	6950 3600 7050 3700
+Wire Wire Line
+	6500 3500 6950 3500
+Text Notes 6800 3450 0    50   ~ 0
+Who designed\nthis symbol?
 $EndSCHEMATC

@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Horiznontal Shift Generator"
+Date "2021-04-20"
+Rev "2.0"
+Comp "Filip Piórski"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -161,7 +161,7 @@ AR Path="/601DE80D/6045ADFB/6045D3C5" Ref="RV?"  Part="1"
 AR Path="/601E8CE8/6045D3C5" Ref="RV4"  Part="1" 
 F 0 "RV4" V 5100 3400 50  0000 R CNN
 F 1 "1k" V 5100 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical" H 5200 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 5200 3450 50  0001 C CNN
 F 3 "~" H 5200 3450 50  0001 C CNN
 	1    5200 3450
 	0    1    -1   0   

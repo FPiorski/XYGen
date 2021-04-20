@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Input Multiplexer"
+Date "2021-04-20"
+Rev "2.0"
+Comp "Filip Piórski"
 Comment1 ""
 Comment2 ""
 Comment3 ""

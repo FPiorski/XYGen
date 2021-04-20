@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Size Adjustment"
+Date "2021-04-20"
+Rev "2.0"
+Comp "Filip Piórski"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -26,7 +26,7 @@ AR Path="/601DE80D/604476D8/6044B52B" Ref="RV?"  Part="1"
 AR Path="/601E8CDA/6044B52B" Ref="RV3"  Part="1" 
 F 0 "RV3" H 3581 5054 50  0000 R CNN
 F 1 "10k" H 3581 5145 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical" H 3650 5100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 3650 5100 50  0001 C CNN
 F 3 "~" H 3650 5100 50  0001 C CNN
 	1    3650 5100
 	1    0    0    1   
@@ -34,36 +34,19 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6044B532
-P 3650 5750
+P 3650 4450
 AR Path="/5FA4B51C/6044B532" Ref="#PWR?"  Part="1" 
 AR Path="/601DE80D/6044B532" Ref="#PWR?"  Part="1" 
 AR Path="/6044B532" Ref="#PWR?"  Part="1" 
 AR Path="/604476D8/6044B532" Ref="#PWR?"  Part="1" 
 AR Path="/601DE80D/604476D8/6044B532" Ref="#PWR?"  Part="1" 
 AR Path="/601E8CDA/6044B532" Ref="#PWR087"  Part="1" 
-F 0 "#PWR087" H 3650 5500 50  0001 C CNN
-F 1 "GND" H 3650 5600 50  0000 C CNN
-F 2 "" H 3650 5750 50  0001 C CNN
-F 3 "" H 3650 5750 50  0001 C CNN
-	1    3650 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+15V #PWR?
-U 1 1 6044B538
-P 3650 4450
-AR Path="/5FA4B51C/6044B538" Ref="#PWR?"  Part="1" 
-AR Path="/601DE80D/6044B538" Ref="#PWR?"  Part="1" 
-AR Path="/6044B538" Ref="#PWR?"  Part="1" 
-AR Path="/604476D8/6044B538" Ref="#PWR?"  Part="1" 
-AR Path="/601DE80D/604476D8/6044B538" Ref="#PWR?"  Part="1" 
-AR Path="/601E8CDA/6044B538" Ref="#PWR086"  Part="1" 
-F 0 "#PWR086" H 3650 4300 50  0001 C CNN
-F 1 "+15V" H 3665 4623 50  0000 C CNN
+F 0 "#PWR087" H 3650 4200 50  0001 C CNN
+F 1 "GND" H 3650 4300 50  0000 C CNN
 F 2 "" H 3650 4450 50  0001 C CNN
 F 3 "" H 3650 4450 50  0001 C CNN
 	1    3650 4450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -248,4 +231,21 @@ Text HLabel 5400 4800 2    50   Output ~ 0
 HiCur
 Text HLabel 5400 5600 2    50   Output ~ 0
 LoCur
+$Comp
+L power:-15V #PWR?
+U 1 1 6080B453
+P 3650 5750
+AR Path="/5FA4B51C/6080B453" Ref="#PWR?"  Part="1" 
+AR Path="/601DE80D/6080B453" Ref="#PWR?"  Part="1" 
+AR Path="/6080B453" Ref="#PWR?"  Part="1" 
+AR Path="/604476D8/6080B453" Ref="#PWR?"  Part="1" 
+AR Path="/601DE80D/604476D8/6080B453" Ref="#PWR?"  Part="1" 
+AR Path="/601E8CDA/6080B453" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 3650 5850 50  0001 C CNN
+F 1 "-15V" H 3650 5900 50  0000 C CNN
+F 2 "" H 3650 5750 50  0001 C CNN
+F 3 "" H 3650 5750 50  0001 C CNN
+	1    3650 5750
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
